@@ -1680,7 +1680,7 @@ class DefaultLoadingScreen extends LoadingScreen {
     ctx.textAlign = "center"
     ctx.textBaseline = "bottom"
     ctx.font = 12 * q * (2 - u2) + "px monospace"
-    ctx.fillText("⚡ powered by SGEM", w / 2,
+    ctx.fillText("⚡ powered by 555px", w / 2,
       Math.Lerp(h / 2 + 32 * q, h - 32 * q, u2))
   }
 }
